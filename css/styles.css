@@ -1,0 +1,74 @@
+/*takes care of the body width*/
+body {
+  min-width: 960px;
+  min-height: 200px;
+  margin: auto;
+}
+
+/*wrapper*/
+.row {
+  width: 960px;
+  margin: auto;
+}
+
+/*the margins on each column*/
+.col_12,/*full*/
+.col_8,/*2/3*/
+.col_6,/*half*/
+.col_4,/*1/3*/
+.col_3,/*1/4*/
+.col_1/*1/4*/{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline;
+  float: left;
+  height:50px;
+  margin-top:5px;
+  margin-bottom:5px;
+  text-align:center;
+  display:table-cell;
+  vertical-align:central;
+}
+
+/*makes the left most cols go to the left and similar for the right ones*/
+.first {
+  margin-left: 0;
+}
+.last {
+  margin-right: 0;
+}
+
+/*all columns, and their respective pixels*/
+.col_12 {
+  width: 950px;
+}
+.col_8 {
+  width: 630px;
+}
+.col_6 {
+  width: 470px;
+}
+.col_4 {
+  width: 310px;
+}
+.col_3 {
+  width: 230px;
+}
+.col_1 {
+  width: 110px;
+}
+
+/*set the layout of the section under images*/
+.content {
+  margin:auto;
+  width:960px;
+  height:610px;
+}
+
+/*align the 3 images as drawn in the layout*/
+.category {
+  position: relative;
+  display: inline-block;
+  float:center;
+  padding:55px;
+}
